@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 3,Chrome 116.0.0.0,Test Suite 3,,2023-09-24 18:41:12,2023-09-24 18:41:21,8.911s,PASSED
+,,,,,,,
+Test Cases/03 Test Case Taj Mahal,Chrome 116.0.0.0,03 Test Case Taj Mahal,,2023-09-24 18:41:12,2023-09-24 18:41:21,8.698s,PASSED
+"openBrowser(""https://www.google.com/"")",Chrome 116.0.0.0,,,2023-09-24 18:41:12,2023-09-24 18:41:16,3.792s,PASSED
+"sendKeys(findTestObject(""Search Test Object""), ""Taj Mahal Wikipedia"")",Chrome 116.0.0.0,,,2023-09-24 18:41:16,2023-09-24 18:41:17,0.565s,PASSED
+"sendKeys(findTestObject(""Search Test Object""), Keys.chord(ENTER))",Chrome 116.0.0.0,,,2023-09-24 18:41:17,2023-09-24 18:41:17,0.914s,PASSED
+"click(findTestObject(""Sun Test Object""))",Chrome 116.0.0.0,,,2023-09-24 18:41:17,2023-09-24 18:41:20,2.512s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-09-24 18:41:20,2023-09-24 18:41:21,0.638s,PASSED

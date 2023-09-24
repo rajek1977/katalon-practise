@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 4,Chrome 116.0.0.0,Test Suite 4,,2023-09-24 18:41:32,2023-09-24 18:41:41,9.341s,PASSED
+,,,,,,,
+Test Cases/04 Test Case India Gate,Chrome 116.0.0.0,04 Test Case India Gate,,2023-09-24 18:41:32,2023-09-24 18:41:41,9.132s,PASSED
+"openBrowser(""https://www.google.com/"")",Chrome 116.0.0.0,,,2023-09-24 18:41:32,2023-09-24 18:41:37,4.637s,PASSED
+"sendKeys(findTestObject(""Search Test Object""), ""India Gate Wikipedia"")",Chrome 116.0.0.0,,,2023-09-24 18:41:37,2023-09-24 18:41:37,0.511s,PASSED
+"sendKeys(findTestObject(""Search Test Object""), Keys.chord(ENTER))",Chrome 116.0.0.0,,,2023-09-24 18:41:37,2023-09-24 18:41:38,0.934s,PASSED
+"click(findTestObject(""Sun Test Object""))",Chrome 116.0.0.0,,,2023-09-24 18:41:38,2023-09-24 18:41:40,2.106s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-09-24 18:41:40,2023-09-24 18:41:41,0.661s,PASSED
