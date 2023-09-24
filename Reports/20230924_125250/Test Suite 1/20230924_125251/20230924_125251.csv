@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 1,Chrome 116.0.0.0,Test Suite 1,,2023-09-24 12:52:56,2023-09-24 12:53:04,7.671s,PASSED
+,,,,,,,
+Test Cases/01 Test Case Sun,Chrome 116.0.0.0,01 Test Case Sun,,2023-09-24 12:52:56,2023-09-24 12:53:04,7.470s,PASSED
+"openBrowser(""https://www.google.com/"")",Chrome 116.0.0.0,,,2023-09-24 12:52:57,2023-09-24 12:53:00,3.721s,PASSED
+"sendKeys(findTestObject(""Search Test Object""), ""Sun Wikipedia"")",Chrome 116.0.0.0,,,2023-09-24 12:53:00,2023-09-24 12:53:01,0.464s,PASSED
+"sendKeys(findTestObject(""Search Test Object""), Keys.chord(ENTER))",Chrome 116.0.0.0,,,2023-09-24 12:53:01,2023-09-24 12:53:02,0.938s,PASSED
+"click(findTestObject(""Sun Test Object""))",Chrome 116.0.0.0,,,2023-09-24 12:53:02,2023-09-24 12:53:03,1.443s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-09-24 12:53:03,2023-09-24 12:53:04,0.649s,PASSED

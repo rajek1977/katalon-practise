@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 2,Chrome 116.0.0.0,Test Suite 2,,2023-09-24 12:53:06,2023-09-24 12:53:16,10.409s,PASSED
+,,,,,,,
+Test Cases/02 Test Case Proxima Centuri,Chrome 116.0.0.0,02 Test Case Proxima Centuri,,2023-09-24 12:53:06,2023-09-24 12:53:16,10.217s,PASSED
+"openBrowser(""https://www.google.com/"")",Chrome 116.0.0.0,,,2023-09-24 12:53:06,2023-09-24 12:53:12,5.584s,PASSED
+"sendKeys(findTestObject(""Search Test Object""), ""Proxima Centauri Wikipedia"")",Chrome 116.0.0.0,,,2023-09-24 12:53:12,2023-09-24 12:53:12,0.557s,PASSED
+"sendKeys(findTestObject(""Search Test Object""), Keys.chord(ENTER))",Chrome 116.0.0.0,,,2023-09-24 12:53:12,2023-09-24 12:53:13,0.930s,PASSED
+"click(findTestObject(""Sun Test Object""))",Chrome 116.0.0.0,,,2023-09-24 12:53:13,2023-09-24 12:53:16,2.253s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-09-24 12:53:16,2023-09-24 12:53:16,0.650s,PASSED
